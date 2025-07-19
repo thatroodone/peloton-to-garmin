@@ -12,7 +12,7 @@ on:
       saveLocalCopy:
         type: boolean
         default: false
-  schedule:
+  schedule: false
     - cron: '0 1 * * *'
 
 env:
